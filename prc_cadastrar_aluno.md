@@ -31,3 +31,9 @@ begin
     end if;
 end;
 |
+call prc_cadastrar_aluno(
+	'Donizeti','GTI'
+);
+
+SELECT * FROM PES_PESSOAS 
+INNER JOIN ALU_ALUNOS USING(PES_CODIGO)
