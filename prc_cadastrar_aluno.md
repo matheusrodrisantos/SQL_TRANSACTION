@@ -1,4 +1,6 @@
 # criando procedures 
+
+```
 delimiter | 
 create procedure prc_cadastrar_aluno(
 IN vnome  varchar(50),
@@ -37,3 +39,4 @@ call prc_cadastrar_aluno(
 
 SELECT * FROM PES_PESSOAS 
 INNER JOIN ALU_ALUNOS USING(PES_CODIGO)
+```
