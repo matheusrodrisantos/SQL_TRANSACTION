@@ -4,6 +4,8 @@
 	commit/rollback/savepoint 
 	DDL  / DML INSERT  / DQL = SELECT
 */
+
+```
 CREATE database BANCAO_TRANSACAO;
 USE BANCAO_TRANSACAO;
 
@@ -25,6 +27,8 @@ insert into PES_PESSOAS VALUES(0, 'Matheus',now());
 insert into pes_pessoas VALUES(0, 'Matheus',now());
 
 select * from pes_pessoas;
+```
+
 /**
 	COMMIT EM MYSQL É TRUE POR PADRÃO 
 	TODA AÇÃO DML É GRAVADA AUTOMATICAMENTE, 
